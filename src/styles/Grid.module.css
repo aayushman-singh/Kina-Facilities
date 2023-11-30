@@ -1,0 +1,36 @@
+ .gridWrap {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #19a7ce;
+  }
+
+  .grid_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+  }
+
+  .grid_item {
+    flex: 1 0 40%;
+    background-color: #afd3e2;
+    padding: 20px;
+    text-align: right;
+    box-sizing: border-box;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .grid_item img {
+    width: 40%;
+    height: auto;
+  }
+
+  .expanded {
+    flex: 1 0 100%;
+  }

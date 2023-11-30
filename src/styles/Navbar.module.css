@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:0px;
+    padding: 40px;
+    
+
+}
+
+.navbar a {
+    
+    margin-right: 40px;
+    
+}
+
+.navLogo {
+    width: 40px;
+    margin-left: 30px;
+    
+}
+
+.navbar a.navLink {
+
+    text-decoration: none;
+    transition: color 0.1s ease-in-out;
+}
+
+.navbar a.navLink:hover {
+    color: #246cf2;
+}
