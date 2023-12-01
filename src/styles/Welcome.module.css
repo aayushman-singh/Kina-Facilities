@@ -1,9 +1,10 @@
 .container {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     padding-top: 10%;
     padding-left: 4%;
-    padding-bottom: 16%;
+    padding-bottom: 15%;
     margin-left: 0px;
     flex-direction: column;
     background-image: url("../public/images/bg.png");
@@ -11,13 +12,17 @@
     background-repeat: no-repeat;
     background-size: 60%;
 }
+.btnContainer {
+    display: flex;
+}
 
 .container h1 {
     font-weight: bold;
     font-size: 60px;
+    
 }
 
-.btn {
+.btn1 {
     margin-top: 40px;
     margin-left: 20px;
     align-self: flex-start;
@@ -29,9 +34,29 @@
     transition: background-color 0.3s, color 0.7s, padding 0.5s ;
 }
 
-.btn:hover{
+.btn1:hover{
     background-color: #146c94;
     padding: 25px;
     color: #fff;
+    
+}
+
+.btn2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    align-self: flex-start;
+    background-color: #f6f1f1;
+    color: ##246cf2;
+    padding: 17px 40px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #146c94;
+    transition: background-color 0.3s, color 0.7s, padding 0.5s ;
+}
+
+.btn2:hover{
+    background-color: #f6f1f1;
+    padding: 23px 45px;
+    color: #246cf2;
     
 }

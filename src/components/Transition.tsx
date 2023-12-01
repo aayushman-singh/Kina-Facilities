@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import trans from '../public/images/trans.png'
+import trans from '../public/images/trans.svg'
 import styles from '../styles/Trans.module.css'
 
 const Transition = () => {

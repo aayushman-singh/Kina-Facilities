@@ -17,20 +17,29 @@
 
   .grid_item {
     flex: 1 0 40%;
-    background-color: #afd3e2;
+    background-color: #19A7CE;
     padding: 20px;
-    text-align: right;
+    display: flex;
     box-sizing: border-box;
+    border-width: 3px;
     border-radius: 30px;
-    cursor: pointer;
     transition: 0.4s;
   }
 
-  .grid_item img {
-    width: 40%;
-    height: auto;
-  }
+ .grid_item h2 {
+    font-size: 32px;
+    padding-top: 10%;
+    margin-right: 10px;
+ }
 
-  .expanded {
-    flex: 1 0 100%;
+ .grid_item p {
+  
+  padding: 10px;
+  
+ }
+
+  .grid_item img {
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
   }
